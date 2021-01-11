@@ -117,7 +117,12 @@ if __name__ == '__main__':
     winners = {winner: round(count*100/NUM_EPISODE, 2) for winner, count in Counter(winners).items()}
     logger.info('Winners count: {0}'.format(winners))
 
+
     # Save state-action value function
     logger.info('Saving Q function...')
+    
+    if not os.path.exists('static'):
+        os.makedirs('static')
+
     np.save('static/Q.npy', agent.Q)
     logger.info('Training successfully finished')
