@@ -32,5 +32,12 @@ The application is developed with Python 3.7 and the steps to use it are the fol
 pip3 install -r requirements.txt
 ```
 
-2. B
+2. From the project folder, run the agent reinforcement learning by the command
+```
+python src/qlearning.py 
+```
 
+3. If you want play against the trained agent, run the user interface by the command
+```
+python src/ui.py 
+```
