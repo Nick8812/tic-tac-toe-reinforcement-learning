@@ -25,6 +25,10 @@ Inside analysis folder it is available a jupyter notebook with some simple stati
 
 ## Install and Run the Application
 
-1. A
+The application is developed with Python 3.7 and the steps to use it are the following:
+
+1. Install the project dependencies by the command
+```pip3 install -r requirements.txt```
+
 2. B
 
