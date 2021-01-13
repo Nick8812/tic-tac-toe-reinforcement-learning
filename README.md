@@ -51,3 +51,13 @@ python src/qlearning.py
 ```
 python src/ui.py 
 ```
+
+## Next Step
+
+The agent is able to contrast the opposite player, but in some situation it looks like that doesn't choose the best available action especially at the beginning of the game. 
+
+Some next step in order to improve the agent could be: 
+- Tuning the agent's parameters (e.g. epsilon, alpha).
+- Modifying the reward process.
+- Using another RL algorithm to learn state-action Q function, for instance by deep learning models.
+
