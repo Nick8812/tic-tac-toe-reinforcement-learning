@@ -28,6 +28,11 @@ The test folder contains the unittest to verify if the tic-tac-toe envorinment i
 
 Inside analysis folder it is available a jupyter notebook with some simple statistics about the training process (eta per episode, total number of draws, total number of agent and opponent wins), the agent's epsilon and alpha values during the process, the time series of number of wins and draws, visualize Q-values dataframe and finally, some board states in order to understand the behaviour of the agent based on Q function values.
 
+### images
+
+The folder contains only the image displays in this README file.
+
+
 ## Install and Run the Application
 
 The application is developed with Python 3.7 and the steps to use it are the following:
