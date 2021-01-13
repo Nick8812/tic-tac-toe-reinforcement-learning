@@ -16,7 +16,7 @@ The source code of the project is available inside the src folder.
 In this folder you find the following python files:
 - **agent.py**: it contains the *exploration* and *exploitation* features of agent, in addition to the implementation of Q-learning algorithm ([link](https://en.wikipedia.org/wiki/Q-learning)).
 - **config.py**: this is the configuration file to play the tic-tac-toe game (agents' symbol and board value).
-- **envorinment.py**: it contains the tic-tac-toe envorinment where the agent interacts and learns by the experience. Its development is based to standard OpenAI Gym API. So here you can find the main methods, such as *reset* to initialize the game, *step* in order to see the next state after a choosed action, *render* to visualize the tic-tac-toe board and the *close* method.
+- **envorinment.py**: it contains the tic-tac-toe envorinment where the agent interacts and learns by the experience. Its development is based to standard OpenAI Gym API ([link](https://gym.openai.com/)). So here you can find the main methods, such as *reset* to initialize the game, *step* in order to see the next state after a choosed action, *render* to visualize the tic-tac-toe board and the *close* method.
 - **qlearning.py**: this is the main script which allows to train the agent against a completely random player. The agent control parameters are settable at the begging of the script. In order to control the reinforcement learning process at every step of every episode, a log is generated and saved in a specific folder named log (and automatically created when you start the training process). At the end of the process, the *static* folder is created inside the project folder to save the final state-action Q-value function of the agent.
 - **ui.py**: this script based on tkinter API ([link](https://wiki.python.org/moin/TkInter)) is the game user interface to play against the previously trained agent. During the game, you can see at every step, which values the Q function assumes on the board. 
 
@@ -52,9 +52,9 @@ python src/qlearning.py
 python src/ui.py 
 ```
 
-## Next Step
+## Improvements
 
-The agent is able to contrast the opposite player, but in some situation it looks like that doesn't choose the best available action especially at the beginning of the game. 
+The agent is able to contrast the opposite player, but at the beginning of the game it looks like it doesn't.
 
 Some next step in order to improve the agent could be: 
 - Tuning the agent's parameters (e.g. epsilon, alpha).
