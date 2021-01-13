@@ -2,7 +2,10 @@
 
 In this repository you can find a script to train an AI agent able to play tic-tac-toe game by means reinforcement learning (Q-learning algorithm, off-policy TD control) and where the tic-tac-toe envorinment is compliance to OpenAI Gym API. Moreover, a brief jupyter notebook allows you to analyze the results and the training process. Finally, a simple user interface tkinter API based is available in order to play against the trained AI agent.
 
-![alt text](https://github.com/Nick8812/tic-tac-toe-reinforcement-learning/blob/main/images/ai_tic_tac_toe_header.png)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Nick8812/tic-tac-toe-reinforcement-learning/blob/main/images/ai_tic_tac_toe_header.png">
+</p>
+
 
 ## Project Structure
 
