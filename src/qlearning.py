@@ -29,7 +29,7 @@ logCsv.writerow(['DATETIME', 'EPISODE', 'STEP', 'IS_GAME_OVER', 'PLAYER', 'ALPHA
 # init agents' parameters
 SYMBOL_AGENT_1 = configFile['Agent_1_symbol']
 SYMBOL_AGENT_2 = configFile['Agent_2_symbol']
-NUM_EPISODE = 1000
+NUM_EPISODE = 100000
 ALPHA = 0.1
 EPS = 0.2
 GAMMA = 0.9
