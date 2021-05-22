@@ -56,7 +56,7 @@ python src/ui.py
 
 The agent is able to contrast the opposite player, but at the beginning of the game it looks like it doesn't.
 
-Some next step in order to improve the agent could be: 
+Next steps in order to improve the agent could be: 
 - Tuning the agent's parameters (e.g. epsilon, alpha).
 - Modifying the reward process.
 - Using another RL algorithm to learn state-action Q function, for instance by deep learning models.
